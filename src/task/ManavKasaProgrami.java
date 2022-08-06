@@ -31,6 +31,8 @@ public class ManavKasaProgrami {
 
         System.out.print("Patlıcan kaç kilo? : ");
         secim = input.nextDouble();
+        
+        input.close();
 
         toplam += secim* patlican;
 
