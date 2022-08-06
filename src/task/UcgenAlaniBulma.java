@@ -30,6 +30,8 @@ public class UcgenAlaniBulma {
         System.out.print("3. kenar: ");
         c = input.nextInt();
 
+        input.close();
+        
         kontrol = ucgenMi (a, b, c);
 
         if (kontrol == 0) {
