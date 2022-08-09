@@ -49,5 +49,7 @@ public class KullaniciGirisi {
         }
         else
             System.out.println("Giriş yapılamadı.");
+        
+        input.close();
     }
 }
