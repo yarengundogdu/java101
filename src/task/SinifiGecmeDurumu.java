@@ -51,7 +51,6 @@ public class SinifiGecmeDurumu {
 
         input.close();
 
-        System.out.println(i);
         ort = (mat + fizik + turkce + kimya + muzik) / i;
 
         if (ort < 55) {
