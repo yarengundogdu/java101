@@ -31,6 +31,8 @@ public class Kombinasyon {
             System.out.print("r değeri: ");
             r = input.nextInt();
         }
+        
+        input.close();
 
         c = fact(n) / (fact(r) * fact(n - r));
 
